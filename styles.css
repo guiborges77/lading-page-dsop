@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import url('responsivo.css');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topo {
+    background-image: url(assets/background\ main.png);
+    
+    width: 100%;
+    height: 749px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-bottom: 60px;
+}
+
+.topo img {
+    margin-top: 70px;
+    margin-bottom: 22px;
+}
+
+.topo div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.topo li {
+    list-style-type: none;
+    margin-bottom: 32px;
+    
+}
+
+.button1 { 
+    border: none;
+    margin-right: 8px;
+    padding: 8px 24px;
+    gap: 10px;
+    border-radius: 47px;
+    background: #6F00DF;
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: 0.3s;
+    
+}
+
+.button1:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.button2 {
+    border: none;
+    padding: 8px 24px;
+    gap: 10px;
+    border-radius: 47px;
+    background: #0F74B8;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: 0.3s;
+}
+
+.button2:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+
+}
+
+.container2 button:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.topo h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 17px;
+}
+
+.topo h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 150% */
+    margin-bottom: 120px;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 h2{
+    width: 712px;
+    color: #313131;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 150% */
+    margin-bottom: 32px;
+}
+
+.container2 button {
+    border: none;
+    display: inline-flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 66px;
+    background: #6F00DF;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 150% */
+    margin-bottom: 102px;
+    transition: 0.3s;
+}
+
+.titulo {
+    color: #6F00DF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+
+.lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lista button:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+section li {
+   
+    text-align: center;
+    align-items: center;
+    display: flex;
+    gap: 24px;
+    margin-bottom: 30px;
+    color: #313131;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 150% */
+}
+
+section li button{
+    margin-top: 30px;
+    margin-bottom: 100px;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 150% */
+    border-radius: 66px;
+    background: #6F00DF;
+    display: inline-flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.container-foto h1{
+    background-image: url(assets/background\ meio.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 80px;
+}
+
+.container-foto-textos h4{
+    margin-bottom: 32px;
+    color: #6F00DF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.container-foto-textos button:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.container-foto-textos p{
+    text-align: justify;
+    color: #313131;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 150% */
+}
+
+.container-foto-textos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-foto-textos button{
+    border: none;
+    border-radius: 66px;
+    background: #6F00DF;
+    display: inline-flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 150% */
+    margin-bottom: 60px;
+}
+
+footer {
+    background-image: url(assets/background\ footer.png);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 708px;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer button:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+
+footer h1 {
+    margin-top: 142px;
+    margin-bottom: 32px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+footer button{
+    border: none;
+    border-radius: 66px;
+    background: #6F00DF;
+    display: inline-flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 150% */
+    margin-bottom: 200px;
+}
+
+footer img {
+    width: 380.419px;
+    height: 72px;
+
+}
